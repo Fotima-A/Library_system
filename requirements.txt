@@ -6,3 +6,5 @@ passlib[bcrypt]
 jwt
 python-jose
 apscheduler
+celery
+redis

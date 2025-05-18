@@ -13,6 +13,7 @@ class OrderStatus(str, enum.Enum):
     booked = "booked"
     taken = "taken"
     returned = "returned"
+    cancelled = "cancelled"
 
 class User(Base):
     __tablename__ = "users"
